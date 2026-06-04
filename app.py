@@ -13,7 +13,7 @@ import numpy as np
 # model.pkl must be in the same folder as app.py
 #with open("model.pkl", "rb") as f:
     #model = pickle.load(f)
- model = joblib.load("model.pkl")
+model = joblib.load("model.pkl")
 
 # ── Page config ───────────────────────────────────────────────────────────
 st.set_page_config(
